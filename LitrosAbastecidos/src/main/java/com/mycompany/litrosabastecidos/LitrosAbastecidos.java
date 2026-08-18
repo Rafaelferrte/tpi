@@ -4,6 +4,8 @@
 
 package com.mycompany.litrosabastecidos;
 
+import java.util.Scanner;
+
 /**
  *
  * @author fatec-dsm2
@@ -11,6 +13,15 @@ package com.mycompany.litrosabastecidos;
 public class LitrosAbastecidos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner l = new Scanner(System.in);
+        
+        double qtdLitros, valorPago;
+        
+        System.out.println("Digite a quantidade de litros abastecidos: ");
+        qtdLitros = l.nextDouble();
+        
+        valorPago = qtdLitros * 6.49;
+        
+        System.out.println("O valor a ser pago é " + valorPago);
     }
 }
