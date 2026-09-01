@@ -66,3 +66,4 @@ public class Contatos {
         System.out.println("Nome Usuario: "+getNome()+"\n"+"Telefone: "+getTelefone()+"\n"+"Endereco: "+getTelefone()+"\n"+"Cidade: "+getCidade());
     }
 }
+
